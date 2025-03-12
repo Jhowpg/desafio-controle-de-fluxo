@@ -7,7 +7,7 @@ public class Contador {
         int primeiraEntrada = scanner.nextInt();
         System.out.println("Agora digite sua segunda entrada...");
         int segundaEntrada = scanner.nextInt();
-
+        // teste
         try {
             contar(primeiraEntrada, segundaEntrada);
         } catch (ParametrosInvalidosException e) {
